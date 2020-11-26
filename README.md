@@ -34,3 +34,5 @@ I have made assumption that user is simply entering the credentials for login th
 
 ### Future Improvements
 The application look and feel can be changed instead of making multi paging application i can make it as single page as well as responsive and provide compatibility with different browsers  and put some validation checks on the input from the user.Moreover the application needs some registeration or signup component so that new user can have access to use this application.
+
+Also we can unit testing in the code using JEST or react testing library.

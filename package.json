@@ -6,7 +6,7 @@
   "author": "Joey Andres <joey.andres@imperva.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npm install:server && npm install:client",
+    "postinstall": "npm run install:server && npm run install:client",
     "install:server": "cd server && npm install",
     "install:client": "cd client && npm install",
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
